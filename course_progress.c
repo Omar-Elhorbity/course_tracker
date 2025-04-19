@@ -202,7 +202,7 @@ void generate_html_report(double completed, double total, const Chapter *chapter
     fprintf(html_file, "        .progress-bar-container {\n");
     fprintf(html_file, "            background: #f3f4f6;\n");
     fprintf(html_file, "            border-radius: 1rem;\n");
-    fprintf(html_file, "            height: 1.5rem;\n");
+    fprintf(html_file, "            height: 2.5rem;\n");
     fprintf(html_file, "            overflow: hidden;\n");
     fprintf(html_file, "            position: relative;\n");
     fprintf(html_file, "        }\n");
